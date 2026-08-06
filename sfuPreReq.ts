@@ -219,15 +219,19 @@ function fillCommaOperators(chunks: string[]): string[] {
 
 function extractPrereqs(text: string): Prereq {
   const regex = /[A-Z]{3,4}\s*\d{3}|\d{3}|or|and|,|\(|\)/g;
-  const connectedChunks = removeUnconnectedTrailingText(
-    text.match(regex) ?? [],
-  );
+  const matches = text.match(regex);
+  if (!matches || matches.length < 3) {
+    return [];
+  }
+  console.log(matches);
+  const connectedChunks = removeUnconnectedTrailingText(matches);
   const chunks = fillCommaOperators(
     fillMissingCourseIdentifiers(connectedChunks),
   );
   const prereqs = recursiveOrAndBreakdown(chunks);
   return prereqs;
 }
+
 function recursiveOrAndBreakdown(chunks: string[]): PrereqGroups {
   let depth = 0;
   let orIndex = -1;
