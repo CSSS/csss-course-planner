@@ -2,13 +2,7 @@ export type Token =
   | { kind: "course" | "number"; value: string; start: number; end: number }
   | {
       kind:
-        | "and"
-        | "or"
-        | "comma"
-        | "lparen"
-        | "rparen"
-        | "semicolon"
-        | "period";
+        "and" | "or" | "comma" | "lparen" | "rparen" | "semicolon" | "period";
       start: number;
       end: number;
     }
@@ -16,4 +10,4 @@ export type Token =
 
 export type SyntaxToken =
   | { kind: "course"; code: string }
-  | { kind: "and" | "or" | "comma" | "lparen" | "rparen" };
+  | { kind: "and" | "or" | "comma" | "semicolon" | "lparen" | "rparen" };

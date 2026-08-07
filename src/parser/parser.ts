@@ -34,7 +34,7 @@ export class RequirementParser {
       return undefined;
     }
 
-    const requirement = this.parseAllOf();
+    const requirement = this._parse();
 
     if (!this.isAtEnd()) {
       throw new Error(
@@ -111,6 +111,25 @@ export class RequirementParser {
 
     this.position++;
     return true;
+  }
+
+  /**
+   * Parses prerequisites that may use a semicolon to denote an `or` with the left and right side.
+   *
+   * e.g. MACM 442: (CMPT 201 or 225) and one of (MATH 340 or 332 or 342); or CMPT 405.
+   * Since we bind `or` more tightly, the `or` gets mixed with the MATH requirements.
+   */
+  private _parse(): Requirement {
+    const reqs: Requirement[] = [this.parseAllOf()];
+
+    while (this.tokenIs("semicolon")) {
+      if (!this.tokenIs("or")) {
+        throw new Error("Expected 'or' after semicolon");
+      }
+      reqs.push(this.parseAllOf());
+    }
+
+    return group("anyOf", reqs);
   }
 
   private consumeRParen(): void {

@@ -546,9 +546,9 @@ export function toSyntaxTokens(tokens: Token[]): SyntaxToken[] {
       case "comma":
       case "lparen":
       case "rparen":
+      case "semicolon":
         result.push({ kind: token.kind });
         break;
-      case "semicolon":
       case "period":
         break;
       case "text":
