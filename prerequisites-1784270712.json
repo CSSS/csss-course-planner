@@ -1,0 +1,1196 @@
+{
+  "schemaVersion": 1,
+  "createdAt": 1784270712,
+  "courses": [
+    {
+      "course": "CMPT 105W",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "This course teaches the fundamentals of informative and persuasive communication for professional engineers and computer scientists. A principal goal of this course is to assist students in thinking critically about various contemporary technical, social, and ethical issues. It focuses on communicating technical information clearly and concisely, managing issues of persuasion when communicating with diverse audiences, presentation skills, and teamwork.",
+      "prerequisites": "",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/105w/e100",
+      "title": "Social Issues and Communication Strategies in Computing Science",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 120",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "An elementary introduction to computing science and computer programming, suitable for students with little or no programming background. Students will learn fundamental concepts and terminology of computing science, acquire elementary skills for programming in a high-level language, e.g. Python. The students will be exposed to diverse fields within, and applications of computing science. Topics will include: pseudocode; data types and control structures; fundamental algorithms; recursion; reading and writing files; measuring performance of algorithms; debugging tools; basic terminal navigation using shell commands. Treatment is informal and programming is presented as a problem-solving tool. ",
+      "prerequisites": "BC Math 12 or equivalent is recommended.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/120/d100",
+      "title": "Introduction to Computing Science and Programming I",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 125",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "A rigorous introduction to computing science and computer programming, suitable for students who already have some background in computing science and programming.  Intended for students who will major in computing science or a related program. Topics include: memory management; fundamental algorithms; formally analyzing the running time of algorithms; abstract data types and elementary data structures; object-oriented programming and software design; specification and program correctness; reading and writing files; debugging tools; shell commands.",
+      "prerequisites": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/125/d100",
+      "title": "Introduction to Computing Science and Programming II",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 201",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "An introduction to a UNIX-like application-OS interface from a programmer's perspective. Introduces operating systems and their interfaces for user-level programs. Students learn how to programmatically interact with an OS efficiently, correctly, and securely. Topics include: command-line tools, programming with memory, processes, threads, IPC, as well as basics of OS security.",
+      "prerequisites": "(CMPT 125 or CMPT 135) and MACM 101, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/201/d100",
+      "title": "Systems Programming",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 210",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Probability has become an essential tool in modern computer science with applications in randomized algorithms, computer vision and graphics, systems, data analysis, and machine learning. The course introduces the foundational concepts in probability as required by many modern applications in computing.",
+      "prerequisites": "MACM 101, MATH 152, CMPT 125 or CMPT 135, and (MATH 240 or MATH 232), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/210/b100",
+      "title": "Probability and Computing",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 225",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Introduction to a variety of practical and important data structures and methods for implementation and for experimental and analytical evaluation. Topics include: stacks, queues and lists; search trees; hash tables and algorithms; efficient sorting; object-oriented programming; time and space efficiency analysis; and experimental evaluation. ",
+      "prerequisites": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/225/d100",
+      "title": "Data Structures and Programming",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 276",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "An overview of various techniques used for software development and software project management. Major tasks and phases in modern software development, including requirements, analysis, documentation, design, implementation, testing,and maintenance. Project management issues are also introduced. Students complete a team project using an iterative development process.",
+      "prerequisites": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/276/d100",
+      "title": "Introduction to Software Engineering",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 295",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "The curriculum introduces students to topics in computer architecture that are considered fundamental to an understanding of the digital systems underpinnings of computer systems. ",
+      "prerequisites": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/295/d100",
+      "title": "Introduction to Computer Systems",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 303",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "A course teaching the internals of modern operating systems. Topics consist of kernel components of modern OSes, such as system calls, device drivers, virtual memory, scheduling, file systems, synchronization for multi-core, and memory ordering.",
+      "prerequisites": "CMPT 225, (CMPT 295 or ENSC 254), and (CMPT 201 or ENSC 351), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/303/d100",
+      "title": "Operating Systems",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 305",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "An introduction to the modelling, analysis, and computer simulation of complex systems. Topics include analytic modelling, discrete event simulation, experimental design, random number generation, and statistical analysis.",
+      "prerequisites": "CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (STAT 270 or STAT 271), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/305/d100",
+      "title": "Computer Simulation and Modelling",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 307",
+      "courseType": {
+        "type": "required",
+        "subtype": "upper"
+      },
+      "description": "Design and analysis of efficient data structures and algorithms. General techniques for building and analyzing algorithms (greedy, divide & conquer, dynamic programming, network flows). Introduction to NP-completeness.",
+      "prerequisites": "CMPT 225, (MACM 201 or CMPT 210), (MATH 150 or MATH 151), and (MATH 232 or MATH 240), all with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 150 or MATH 151.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/307/d100",
+      "title": "Data Structures and Algorithms",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 308",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "Formal models of computation such as automata and Turing machines. Decidability and undecidability. Recursion Theorem. Connections between computability and logic (Gödel’s Incompleteness). Time and space complexity classes. NP-completeness.",
+      "prerequisites": "(MACM 201 or CMPT 210) with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/308/d100",
+      "title": "Computability and Complexity",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 310",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "Artificial intelligence is an area with vast application scenarios. This course is intended as a prerequisite for advanced-level AI courses and covers the fundamental concepts and foundational mathematical formulations in machine learning and AI. Topics include supervised learning, linear regression, gradient descent, search algorithms, Markov decision processes, and Bayes nets.",
+      "prerequisites": "CMPT 225 and STAT 271, all with a minimum grade of C-. Recommended: MATH 251.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/310/d100",
+      "title": "Introduction to Artificial Intelligence",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 318",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      },
+      "description": "Special topics in computing science at the 300 level. Topics that are of current interest or are not covered in regular curriculum will be offered from time to time depending on availability of faculty and student interest.",
+      "prerequisites": "CMPT 225 with a minimum grade of C-. Additional prerequisites to be determined by the instructor subject to approval by the undergraduate program chair.",
+      "corequisites": "",
+      "outlinePath": "2025/spring/cmpt/318/d100",
+      "title": "Special Topics in Computing Science",
+      "year": 2025,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 340",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "The principles involved in using computers for data acquisition, real-time processing, pattern recognition and experimental control in biology and medicine will be developed. The use of large data bases and simulation will be explored.",
+      "prerequisites": "Completion of 60 units including one of CMPT 125, 126, 128, 135, with a minimum grade of C- or CMPT 102 with a grade of B or higher.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/340/bls1",
+      "title": "Biomedical Computing",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 353",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "Basic concepts and programming tools for handling and processing data. Includes data acquisition, cleaning data sources, application of machine learning techniques and data analysis techniques, large-scale computation on a computing cluster.",
+      "prerequisites": "CMPT 225 and (BUS 232, STAT 201, STAT 203, STAT 205, STAT 270, STAT 271, ENSC 280, MSE 210, or SEE 241), with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/353/d100",
+      "title": "Computational Data Science",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 354",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "Logical representations of data records. Data models. Studies of some popular file and database systems. Document retrieval. Other related issues such as database administration, data dictionary and security.",
+      "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/354/d100",
+      "title": "Database Systems I",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 361",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Provides a unified introduction to the fundamentals of computer graphics and computer vision (visual computing). Topics include graphics pipelines, sampling and aliasing, geometric transformations, projection and camera models, meshing, texturing, color theory, image filtering and registration, shading and illumination, raytracing, rasterization, animation, optical flow, and game engines.",
+      "prerequisites": "CMPT 225 and STAT 271, both with a minimum grade of C-. Recommended: MATH 251.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/361/d100",
+      "title": "Introduction to Visual Computing",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 362",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "Teaches students how to design and implement smartphone applications. Topics include development environment, phone emulator, key programming paradigms, UI design including views, fragments, and activities, data persistence, threads, services, embedded sensors, and location based services (e.g., Google Maps). Concepts are reinforced through programming assignments and group projects.",
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/362/d100",
+      "title": "Mobile Applications Programming and Design",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 363",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Builds on the fundamental concepts of human-computer interaction (HCI) and user interface design taught in the prerequisite course (CMPT 263), including usability and iterative user-centered design. The teaching format is studio-based, where students acquire hands-on experience by engaging in term-long projects on designing, implementing, and evaluating interactive computer systems. Students apply HCI concepts to real-world scenarios while exploring advanced and specialized topics such as emerging interaction paradigms, human-AI interaction, ubiquitous computing, the social impact of HCI, and inclusive design.",
+      "prerequisites": "CMPT 225 and CMPT 263, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/363/d100",
+      "title": "User Interface Design",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 365",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Multimedia systems design, multimedia hardware and software, issues in effectively representing, processing, and retrieving multimedia data such as text, graphics, sound and music, image and video.",
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/365/d100",
+      "title": "Multimedia Systems",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 371",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "Data communication fundamentals (data types, rates, and transmission media). Network architectures for local and wide areas. Communications protocols suitable for various architectures. ISO protocols and internetworking. Performance analysis under various loadings and channel error rates.",
+      "prerequisites": "CMPT 225 and (MATH 151 or MATH 150), with a minimum grade of C-. MATH 154 or MATH 157 with a grade of at least B+ may be substituted for MATH 151 (MATH 150).",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/371/d100",
+      "title": "Data Communications and Networking",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 372",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "Introduces students to the fundamentals of server-side web development. Students will gain experience working with backend web frameworks, designing and implementing web APIs, and deploying web systems. Students will be introduced to popular back-end frameworks. The course will focus on the design, creating, implementation, and deployment of backend systems, including APIs.",
+      "prerequisites": "CMPT 272 and CMPT 225, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/372/d100",
+      "title": "Web II - Server-side Development",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 373",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      },
+      "description": "Survey of modern software development methodology. Several software development process models will be examined, as will the general principles behind such models. Provides experience with different programming paradigms and their advantages and disadvantages during software development.",
+      "prerequisites": "CMPT 276 or 275, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/373/d100",
+      "title": "Software Development Methods",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 376W",
+      "courseType": {
+        "type": "required",
+        "subtype": "upper"
+      },
+      "description": "Covers professional writing in computing science, including format conventions and technical reports. The basis for ethical decision-making and the methodology for reaching ethical decisions concerning computing matters will be studied. Students will survey and write research papers, and both individual and group work will be emphasized.",
+      "prerequisites": "CMPT 105W and (CMPT 275 or CMPT 276), with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/376w/d100",
+      "title": "Professional Responsibility and Technical Writing",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 379",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "This course covers the key components of a compiler for a high level programming language. Topics include lexical analysis, parsing, type checking, code generation and optimization. Students will work in teams to design and implement an actual compiler making use of tools such as lex and yacc. ",
+      "prerequisites": "(MACM 201 or CMPT 210), (CMPT 295 or ENSC 215) and CMPT 225, all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/summer/cmpt/379/d100",
+      "title": "Principles of Compiler Design",
+      "year": 2025,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 383",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      },
+      "description": "Various concepts and principles underlying the design and use of modern programming languages are considered in the context of procedural, object-oriented, functional and logic programming languages. Topics include data and control structuring constructs, facilities for modularity and data abstraction, polymorphism, syntax, and formal semantics.",
+      "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/383/d100",
+      "title": "Comparative Programming Languages",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 384",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      },
+      "description": "This course considers modelling and programming techniques appropriate for symbolic data domains such as mathematical expressions, logical formulas, grammars and programming languages. Topics include recursive and functional programming style, grammar-based data abstraction, simplification and reduction transformations, conversions to canonical form, environment data structures and interpreters, metaprogramming, pattern matching and theorem proving.",
+      "prerequisites": "CMPT 225 and (MACM 101 or (ENSC 251 and ENSC 252)), all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/spring/cmpt/384/d100",
+      "title": "Symbolic Computing",
+      "year": 2025,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 403",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "Starting from cybersecurity principles, students will learn to protect systems from attacks on data confidentiality, integrity, system availability, and user privacy. By modeling system security, students will learn to find weaknesses in software, hardware, networks, data storage systems, and the Internet, and identify current security practices to protect these systems.",
+      "prerequisites": "CMPT 201 or CMPT 300 or ENSC 351, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/403/d100",
+      "title": "System Security and Privacy",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 404",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "The main cryptographic tools and primitives, their use in cryptographic applications; security and weaknesses of the current protocols. The notion of security, standard encryption schemes, digital signatures, zero-knowledge, selected other topics.",
+      "prerequisites": "(MACM 201 or CMPT 210) with a minimum grade of C-. CMPT 307 and 308 are recommended.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/404/d100",
+      "title": "Cryptography and Cryptographic Protocols",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 405",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "Models of computation, methods of algorithm design; complexity of algorithms; algorithms on graphs, NP-completeness, approximation algorithms, selected topics.",
+      "prerequisites": "CMPT 307 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/405/d100",
+      "title": "Design and Analysis of Computing Algorithms",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 406",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "Mathematical preliminaries; convex hull algorithms; intersection problems; closest-point problems and their applications. Prerequisite: CMPT 307.",
+      "prerequisites": "CMPT 307.",
+      "corequisites": "",
+      "outlinePath": "2017/fall/cmpt/406/d100",
+      "title": "Computational Geometry",
+      "year": 2017,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 407",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "Study of what is, and is not, efficiently computable with limited resources (time, space, randomness, parallelism, nondeterminism, interaction, and quantum). Complexity classes and connections among them. Interplay between complexity and algorithm design.",
+      "prerequisites": "CMPT 307 with a minimum grade of C-. CMPT 308 is recommended.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/407/d100",
+      "title": "Computational Complexity",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 409",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "Current topics in theoretical computing science depending on faculty and student interest.",
+      "prerequisites": "CMPT 307 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/409/d100",
+      "title": "Special Topics in Theoretical Computing Science",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 410",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "Machine Learning (ML) is the study of computer algorithms that improve automatically through experience. This course introduces students to the theory and practice of machine learning, and covers mathematical foundations, models such as (generalized) linear models, kernel methods and neural networks, loss functions for classification and regression, and optimization methods.",
+      "prerequisites": "CMPT 310 and MACM 316, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/410/d100",
+      "title": "Machine Learning",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 411",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "Formal and foundational issues dealing with the representation of knowledge in artificial intelligence systems are covered. Questions of semantics, incompleteness, non-monotonicity and others will be examined. As well, particular approaches, such as procedural or semantic network, may be discussed.",
+      "prerequisites": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "corequisites": "",
+      "outlinePath": "2019/fall/cmpt/411/d100",
+      "title": "Knowledge Representation",
+      "year": 2019,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 412",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Computational approaches to image and video understanding in relation to theories, the operation of the human visual system, and practical application areas such as robotics. Topics include image classification, object detection, image segmentation based mostly on deep neural network and to some extent classical techniques, and 3D reconstruction. Also covers state-of-the-art deep neural architectures for computer vision applications, such as metric learning, generative adversarial networks, and recurrent neural networks.",
+      "prerequisites": "CMPT 361 and MATH 152, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/412/d100",
+      "title": "Computer Vision",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 413",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "This course examines the theoretical and applied problems of constructing and modelling systems, which aim to extract and represent the meaning of natural language sentences or of whole discourses, but drawing on contributions from the fields of linguistics, cognitive psychology, artificial intelligence and computing science.",
+      "prerequisites": "Completion of nine units in Computing Science upper division courses or, in exceptional cases, permission of the instructor.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/413/d100",
+      "title": "Computational Linguistics",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 415",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      },
+      "description": "To be individually arranged.",
+      "prerequisites": "Permission of Instructor and School.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/415/d100",
+      "title": "Special Research Projects",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 416",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      },
+      "description": "To be individually arranged.",
+      "prerequisites": "Permission of the department.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/416/d100",
+      "title": "Special Research Projects",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 417",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "Intelligent Systems using modern constraint programming and heuristic search methods. A survey of this rapidly advancing technology as applied to scheduling, planning, design and configuration. An introduction to constraint programming, heuristic search, constructive (backtrack) search, iterative improvement (local) search, mixed-initiative systems and combinatorial optimization.",
+      "prerequisites": "CMPT 225 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/417/d100",
+      "title": "Intelligent Systems",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 419",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "Current topics in artificial intelligence depending on faculty and student interest.",
+      "prerequisites": "",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/419/d100",
+      "title": "Special Topics in Artificial Intelligence",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 420",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      },
+      "description": "In machine learning, many recent successes have been achieved using neural networks with several layers, so-called deep neural networks. Convolutional neural nets, autoencoders, recurrent neural nets, long-short term memory networks, and generative adversarial networks will be presented. Students will look at techniques for training them from data, and applications.",
+      "prerequisites": "CMPT 310, CMPT 410 or CMPT 419 (Machine Learning), both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/420/d100",
+      "title": "Deep Learning",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 431",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "An introduction to distributed systems: systems consisting of multiple physical components connected over a network. Architectures of such systems, ranging from client-server to peer-to-peer. Distributed systems are analyzed via case studies of real network file systems, replicated systems, sensor networks and peer-to-peer systems. Hands-on experience designing and implementing a complex distributed system.",
+      "prerequisites": "(CMPT 201 or CMPT 300) and CMPT 371, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/431/d100",
+      "title": "Distributed Systems",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 433",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "The basics of embedded system organization, hardware-software co-design, and programmable chip technologies are studied. Formal models and specification languages for capturing and analyzing the behaviour of embedded systems. The design and use of tools for system partitioning and hardware/software co-design implementation, validation, and verification are also studied.",
+      "prerequisites": "(CMPT 201 or CMPT 300) and CMPT 295, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/spring/cmpt/433/d100",
+      "title": "Embedded Systems",
+      "year": 2025,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 441",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "This course introduces students to the computing science principles underlying computational biology. The emphasis is on the design, analysis and implementation of computational techniques. Possible topics include algorithms for sequence alignment, database searching, gene finding, phylogeny and structure analysis. ",
+      "prerequisites": "CMPT 307 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/441/e100",
+      "title": "Computational Biology",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 450",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "Principles of the architecture of computing systems. Topics include: superscalar processor micro-architecture, speculative execution, cache and memory hierarchy, multiprocessors, cache coherence, memory consistency, implications of technology on architecture, parallel architectures (multi-threading, GPUs, vector processors).",
+      "prerequisites": "CMPT 295 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/450/d100",
+      "title": "Computer Architecture",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 454",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "An advanced course on database systems which covers crash recovery, concurrency control, transaction processing, distributed database systems as the core material and a set of selected topics based on the new developments and research interests, such as object-oriented data models and systems, extended relational systems, deductive database systems, and security and integrity.",
+      "prerequisites": "(CMPT 201 or CMPT 300) and CMPT 354, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/454/d100",
+      "title": "Database Systems II",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 456",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "Introduction to the essentials of information retrieval and the applications of information retrieval in web search and web information systems. Topics include the major models of information retrieval, similarity search, text content search, link structures and web graphics, web mining and applications, crawling, search engines, and some advanced topics such as spam detection, online advertisement, and fraud detection in online auctions.",
+      "prerequisites": "CMPT 354.",
+      "corequisites": "",
+      "outlinePath": "2020/summer/cmpt/456/d100",
+      "title": "Information Retrieval and Web Search",
+      "year": 2020,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 459",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "Current topics in database and information systems depending on faculty and student interest.",
+      "prerequisites": "CMPT 354 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/459/d100",
+      "title": "Special Topics in Database Systems",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 461",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Computational photography is concerned with overcoming the limitations of traditional photography with computation: in optics, sensors, and geometry; and even in composition, style, and human interfaces. The course covers computational techniques to improve the way we process, manipulate, and interact with visual media. The covered topics include intrinsic decomposition, monocular depth estimation, edit propagation, camera geometry and optics, computational apertures, advanced image filtering operations, high-dynamic range, image blending, texture synthesis and inpainting.",
+      "prerequisites": "CMPT 361 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/461/e100",
+      "title": "Computational Photography and Image Manipulation",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 464",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Covers advanced topics in geometric modelling and processing for computer graphics, such as Bezier and B-spline techniques, subdivision curves and surfaces, solid modelling, implicit representation, surface reconstruction, multi-resolution modelling, digital geometry processing (e.g. mesh smoothing, compression, and parameterization), point-based representation, and procedural modelling.",
+      "prerequisites": "CMPT 361, MACM 316, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/464/d100",
+      "title": "Geometric Modelling in Computer Graphics",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 466",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Topics and techniques in animation, including: The history of animation, computers in animation, traditional animation approaches, and computer animation techniques such as geometric modelling, interpolation, camera controls, kinematics, dynamics, constraint-based animation, realistic motion, temporal aliasing, digital effects and post production.",
+      "prerequisites": "CMPT 361 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/466/d100",
+      "title": "Animation",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 467",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Presents advanced topics in the field of scientific and information visualization. Topics include an introduction to visualization (importance, basic approaches, and existing tools), abstract visualization concepts, human perception, visualization methodology, data representation, 2D and 3D display, interactive visualization, and their use in medical, scientific, and business applications.",
+      "prerequisites": "CMPT 361, MACM 316, both with a minimum grade of C-",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/467/ol01",
+      "title": "Visualization",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 469",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      },
+      "description": "Current topics in computer graphics depending on faculty and student interest.",
+      "prerequisites": "CMPT 361 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/469/d100",
+      "title": "Special Topics in Computer Graphics",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 471",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "This course covers the fundamentals of higher level network functionality such as remote procedure/object calls, name/address resolution, network file systems, network security and high speed connectivity/bridging/switching.",
+      "prerequisites": "(CMPT 201 or CMPT 300 or ENSC 351) and CMPT 371, both with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/471/e100",
+      "title": "Networking II",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 473",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      },
+      "description": "Methods for software quality assurance focusing on reliability and security. Test coverage and test data adequacy including combinatorial testing. MC/DC testing, and mutation testing. Security engineering techniques for vulnerability discovery and mitigation including fuzz testing. Testing techniques will be applied to the assessment of external open source software.",
+      "prerequisites": "(CMPT 275 or CMPT 276) with a minimum grade of C- and 15 upper division CMPT units.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/473/e100",
+      "title": "Software Testing, Reliability and Security",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 474",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      },
+      "description": "Web service based systems are fundamentally different from traditional software systems. The conceptual and methodological differences between a standard software development process and the development of a web service based information system. The technology involved during the construction of their own web service based application in an extensive project.",
+      "prerequisites": "CMPT 371 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2024/spring/cmpt/474/d100",
+      "title": "Web Systems Architecture",
+      "year": 2024,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 475",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      },
+      "description": "Software succeeds when it is well-matched to its intended purpose. Requirements engineering is the process of discovering that purpose by making requirements explicit and documenting them in a form amenable to analysis, reasoning, and validation, establishing the key attributes of a system prior to its construction. Students will learn methodical approaches to requirements analysis and design specification in early systems development phases, along with best practices and common principles to cope with notoriously changing requirements. ",
+      "prerequisites": "CMPT 275 or CMPT 276, (MACM 201 or CMPT 210) , all with a minimum grade of C- and 15 units of upper division courses. Recommended: Co-op experience.",
+      "corequisites": "",
+      "outlinePath": "2025/spring/cmpt/475/e100",
+      "title": "Requirements Engineering",
+      "year": 2025,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 476",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "An introductory treatment of quantum computing with an emphasis on quantum algorithms. Topics include the gate model of quantum computation focusing on the design and implementation of quantum algorithms. Basic knowledge of algorithms and complexity will be an asset, but not required. No prior knowledge of physics or quantum mechanics is necessary, only a solid background in linear algebra.",
+      "prerequisites": "MATH 232 or MATH 240, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/cmpt/476/d100",
+      "title": "Introduction to Quantum Algorithms",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "CMPT 477",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      },
+      "description": "Introduces, at an accessible level, a formal framework for symbolic model checking, one of the most important verification methods. The techniques are illustrated with examples of verification of reactive systems and communication protocols. Students learn to work with a model checking tool.",
+      "prerequisites": "CMPT 275 or 276, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/477/d100",
+      "title": "Introduction to Formal Verification",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 479",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "Current topics in computing systems depending on faculty and student interest.",
+      "prerequisites": "CMPT 201 or CMPT 300 or ENSC 351, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/479/d100",
+      "title": "Special Topics in Computing Systems",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 489",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      },
+      "description": "Current topics in programming languages depending on faculty and student interest.",
+      "prerequisites": "CMPT 383 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/cmpt/489/d100",
+      "title": "Special Topics in Programming Languages",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "CMPT 496",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      },
+      "description": "Independent study in topics selected in consultation with the supervising instructor(s) that are not covered by existing course offerings. Students must submit a proposal to the undergraduate chair, including the name and signature of the supervising faculty member(s). The proposal must include details of the material to be covered and the work to be submitted.",
+      "prerequisites": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the undergraduate chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/496/d100",
+      "title": "Directed Studies",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 497",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      },
+      "description": "Students will select one project to be completed in their final year of study. Each student must complete a project report and make a project presentation. The project may include: a research survey, a project implementation, a research paper/report. ",
+      "prerequisites": "Submission of a satisfactory capstone project proposal.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/497/d100",
+      "title": "Dual Degree Program Capstone Project",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 498",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      },
+      "description": "Students must submit a proposal to the Undergraduate Chair, including the name and signature of the supervising faculty member(s). Students must complete a project report and make a project presentation. This course can satisfy the research project requirements for Computing Science honours students.",
+      "prerequisites": "Students must have completed 90 units, including 15 units of upper division CMPT courses, and have a GPA of at least 3.00. The proposal must be submitted to the Undergraduate Chair at least 15 days in advance of the term. The proposal must be signed by the supervisor(s) and the undergraduate chair.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/cmpt/498/d100",
+      "title": "Honours Research Project",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "CMPT 499",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      },
+      "description": "Current topics in computer hardware depending on faculty and student interest.",
+      "prerequisites": "CMPT/ENSC 250.",
+      "corequisites": "",
+      "outlinePath": "2021/spring/cmpt/499/d100",
+      "title": "Special Topics in Computer Hardware",
+      "year": 2021,
+      "semester": "spring"
+    },
+    {
+      "course": "MACM 101",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Introduction to graph theory, trees, induction, automata theory, formal reasoning, modular arithmetic.",
+      "prerequisites": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/macm/101/d100",
+      "title": "Discrete Mathematics I",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MACM 316",
+      "courseType": {
+        "type": "required",
+        "subtype": "bsc"
+      },
+      "description": "A presentation of the problems commonly arising in numerical analysis and scientific computing and the basic methods for their solutions.",
+      "prerequisites": "MATH 152 or 155 or 158, and MATH 232 or 240, and computing experience.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/macm/316/d100",
+      "title": "Numerical Analysis I",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MACM 401",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      },
+      "description": "Data structures and algorithms for mathematical objects. Topics include long integer arithmetic, computing polynomial greatest common divisors, the fast Fourier transform, Hensel's lemma and p-adic methods, differentiation and simplification of formulae, and polynomial factorization. Students will use a computer algebra system such as Maple for calculations and programming.",
+      "prerequisites": "CMPT 307 or ((MATH 340 or MATH 342) and (CMPT 225 or MACM 204)).",
+      "corequisites": "",
+      "outlinePath": "2025/spring/macm/401/d100",
+      "title": "Introduction to Computer Algebra",
+      "year": 2025,
+      "semester": "spring"
+    },
+    {
+      "course": "MACM 442",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      },
+      "description": "An introduction to the subject of modern cryptography. Classical methods for cryptography and how to break them, the data encryption standard (DES), the advanced encryption standard (AES), the RSA and ElGammal public key cryptosystems, digital signatures, secure hash functions and pseudo-random number generation. Algorithms for computing with long integers including the use of probabilistic algorithms.  ",
+      "prerequisites": "(CMPT 201 or 225) and one of (MATH 340 or 332 or 342); or CMPT 405.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/macm/442/d100",
+      "title": "Cryptography",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "MACM 476",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      },
+      "description": "An introductory treatment of quantum computing with an emphasis on quantum algorithms. Topics include the gate model of quantum computation focusing on the design and implementation of quantum algorithms. Basic knowledge of algorithms and complexity will be an asset, but not required. No prior knowledge of physics or quantum mechanics is necessary, only a solid background in linear algebra.",
+      "prerequisites": "MATH 232 or MATH 240, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2025/spring/macm/476/d100",
+      "title": "Introduction to Quantum Algorithms",
+      "year": 2025,
+      "semester": "spring"
+    },
+    {
+      "course": "MATH 150",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Designed for students specializing in mathematics, physics, chemistry, computing science and engineering. Topics as for Math 151 with a more extensive review of functions, their properties and their graphs. Recommended for students with no previous knowledge of Calculus. In addition to regularly scheduled lectures, students enrolled in this course are encouraged to come for assistance to the Calculus Workshop (Burnaby), or Math Open Lab (Surrey). ",
+      "prerequisites": "Pre-Calculus 12 (or equivalent) with a grade of at least B+, or MATH 100 with a grade of at least B-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/math/150/d100",
+      "title": "Calculus I with Review",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MATH 151",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Designed for students specializing in mathematics, physics, chemistry, computing science and engineering. Logarithmic and exponential functions, trigonometric functions, inverse functions. Limits, continuity, and derivatives. Techniques of differentiation, including logarithmic and implicit differentiation. The Mean Value Theorem. Applications of differentiation including extrema, curve sketching, Newton's method. Introduction to modeling with differential equations. Polar coordinates, parametric curves. ",
+      "prerequisites": "Pre-Calculus 12 (or equivalent) with a grade of at least A, or MATH 100 with a grade of at least B.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/math/151/d100",
+      "title": "Calculus I",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "MATH 152",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Riemann sum, Fundamental Theorem of Calculus, definite, indefinite and improper integrals, approximate integration, integration techniques, applications of integration. First-order separable differential equations and growth models. Sequences and series, series tests, power series, convergence and applications of power series.",
+      "prerequisites": "MATH 150 or 151 or 155, with a minimum grade of C-; or MATH 154 or 157, with a grade of at least B.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/math/152/d100",
+      "title": "Calculus II",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MATH 154",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Designed for students specializing in the life sciences. Topics include: limits, growth rate and the derivative; elementary functions, optimization and approximation methods, and their applications, integration, and differential equations; mathematical models of biological processes and their implementation and analysis using software.",
+      "prerequisites": "Pre-Calculus 12 (or equivalent) with a grade of at least B, or MATH 100 with a grade of at least C-, or MATH 110 with a grade of at least C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/math/154/d100",
+      "title": "Mathematics for the Life Sciences I",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "MATH 155",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Designed for students specializing in the life sciences. Topics include: vectors and matrices, partial derivatives, multi-dimensional integrals, systems of differential equations, compartment models, graphs and networks, and their applications to the life sciences; mathematical models of multi-component biological processes and their implementation and analysis using software. Students planning to take MATH 251 are recommended to consider MATH 152 as the prerequisite pathway. See an advisor to determine what may be best for you.",
+      "prerequisites": "MATH 150, 151 or 154, with a minimum grade of C-; or MATH 157 with a grade of at least B.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/math/155/d100",
+      "title": "Mathematics for the Life Sciences II",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MATH 157",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Designed for students specializing in business or the social sciences. Topics include: limits, growth rate and the derivative; logarithmic, exponential and trigonometric functions and their application to business, economics, optimization and approximation methods; introduction to functions of several variables with emphasis on partial derivatives and extrema.",
+      "prerequisites": "Pre-Calculus 12 (or equivalent) with a grade of at least B, or MATH 100 with a grade of at least C, or MATH 110 with a grade of at least C.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/math/157/d100",
+      "title": "Calculus I for the Social Sciences",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MATH 158",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Designed for students specializing in business or the social sciences. Topics include: theory of integration, integration techniques, applications of integration; functions of several variables with emphasis on double and triple integrals and their applications; introduction to differential equations with emphasis on some special first-order equations and their applications; sequences and series.",
+      "prerequisites": "MATH 150 or 151 or 154 or 157, with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/math/158/e100",
+      "title": "Calculus II for the Social Sciences",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "MATH 232",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Linear equations, matrices, determinants. Introduction to vector spaces and linear transformations and bases. Complex numbers. Eigenvalues and eigenvectors; diagonalization. Inner products and orthogonality; least squares problems. An emphasis on applications involving matrix and vector calculations.",
+      "prerequisites": "MATH 150 or 151 or MACM 101, with a minimum grade of C-; or MATH 154 or 157, both with a grade of at least B.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/math/232/d400",
+      "title": "Applied Linear Algebra",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MATH 240",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "Linear equations, matrices, determinants. Real and abstract vector spaces, subspaces and linear transformations; basis and change of basis. Complex numbers. Eigenvalues and eigenvectors; diagonalization. Inner products and orthogonality; least squares problems. Applications. Subject is presented with an abstract emphasis and includes proofs of the basic theorems.",
+      "prerequisites": "MATH 150 or 151 or MACM 101, with a minimum grade of C-; or MATH 154 or 157, both with a grade of at least B.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/math/240/d100",
+      "title": "Algebra I: Linear Algebra",
+      "year": 2026,
+      "semester": "summer"
+    },
+    {
+      "course": "MATH 308",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      },
+      "description": "Linear programming modelling. The simplex method and its variants. Duality theory. Post-optimality analysis. Applications and software. Additional topics may include: game theory, network simplex algorithm, and convex sets.",
+      "prerequisites": "MATH 150, 151, 154, or 157 and MATH 240 or 232, all with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/spring/math/308/d100",
+      "title": "Linear Optimization",
+      "year": 2026,
+      "semester": "spring"
+    },
+    {
+      "course": "MATH 340",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      },
+      "description": "The integers, fundamental theorem of arithmetic. Equivalence relations, modular arithmetic. Univariate polynomials, unique factorization. Rings and fields. Units, zero divisors, integral domains. Ideals, ring homomorphisms. Quotient rings, the ring isomorphism theorem. Chinese remainder theorem. Euclidean, principal ideal, and unique factorization domains. Field extensions, minimal polynomials. Classification of finite fields.",
+      "prerequisites": "MATH 240 with a minimum grade of C- or MATH 232 with a grade of at least B.",
+      "corequisites": "",
+      "outlinePath": "2025/fall/math/340/d100",
+      "title": "Algebra II: Rings and Fields",
+      "year": 2025,
+      "semester": "fall"
+    },
+    {
+      "course": "MATH 343",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      },
+      "description": "Structures and algorithms, generating elementary combinatorial objects, counting (integer partitions, set partitions, Catalan families), backtracking algorithms, branch and bound, heuristic search algorithms.",
+      "prerequisites": "MACM 201 with a minimum grade of C-. Recommended: Knowledge of a programming language.",
+      "corequisites": "",
+      "outlinePath": "2024/fall/math/343/d100",
+      "title": "Applied Discrete Mathematics",
+      "year": 2024,
+      "semester": "fall"
+    },
+    {
+      "course": "STAT 271",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      },
+      "description": "This is an introductory course in probability and statistics that is designed for Computer Science students. Mainly covers basic probability theory and statistical methods for designing and analyzing computing algorithms and systems. Topics include continuous probability distributions, random variables, multivariate normal distributions, parameter estimation and inference theory, as well as design and analysis of statistical studies, including hypothesis testing and presentation of statistical data.",
+      "prerequisites": "CMPT 210 with a minimum grade of C-.",
+      "corequisites": "",
+      "outlinePath": "2026/summer/stat/271/d100",
+      "title": "Probability and Statistics for Computing Science",
+      "year": 2026,
+      "semester": "summer"
+    }
+  ]
+}
