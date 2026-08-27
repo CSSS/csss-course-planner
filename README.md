@@ -8,6 +8,13 @@ Project to parse and create graphs of courses.
 
 ## Usage
 
+1. Get the prerequisites by getting the degree requirements.
+```bash
+node ./src/fetch-course-outlines --input degree-requirements.json
+```
+
+2. 
+
 - Ensure you have `prerequisites-XXX.json` in the root directory.
 - The file to read from is currently hard-coded.
 - To run use

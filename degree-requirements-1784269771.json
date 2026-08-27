@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "createdAt": 1784269771,
+  "courses": [
+    {
+      "course": "CMPT 105W",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 120",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 125",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 201",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 210",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 225",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 276",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 295",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "CMPT 303",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 305",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 307",
+      "courseType": {
+        "type": "required",
+        "subtype": "upper"
+      }
+    },
+    {
+      "course": "CMPT 308",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "CMPT 310",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 318",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      }
+    },
+    {
+      "course": "CMPT 340",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 353",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 354",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 361",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 362",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 363",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 365",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 371",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 372",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 373",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      }
+    },
+    {
+      "course": "CMPT 376W",
+      "courseType": {
+        "type": "required",
+        "subtype": "upper"
+      }
+    },
+    {
+      "course": "CMPT 379",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 383",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      }
+    },
+    {
+      "course": "CMPT 384",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      }
+    },
+    {
+      "course": "CMPT 403",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 404",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "CMPT 405",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "CMPT 406",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "CMPT 407",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "CMPT 409",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "CMPT 410",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 411",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 412",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 413",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 415",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      }
+    },
+    {
+      "course": "CMPT 416",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      }
+    },
+    {
+      "course": "CMPT 417",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 419",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 420",
+      "courseType": {
+        "type": "elective",
+        "subtype": "ai"
+      }
+    },
+    {
+      "course": "CMPT 431",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 433",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 441",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 450",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 454",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 456",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 459",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 461",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 464",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 466",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 467",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 469",
+      "courseType": {
+        "type": "elective",
+        "subtype": "visual"
+      }
+    },
+    {
+      "course": "CMPT 471",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 473",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      }
+    },
+    {
+      "course": "CMPT 474",
+      "courseType": {
+        "type": "elective",
+        "subtype": "infosys"
+      }
+    },
+    {
+      "course": "CMPT 475",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      }
+    },
+    {
+      "course": "CMPT 476",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "CMPT 477",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      }
+    },
+    {
+      "course": "CMPT 479",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "CMPT 489",
+      "courseType": {
+        "type": "elective",
+        "subtype": "languages"
+      }
+    },
+    {
+      "course": "CMPT 496",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      }
+    },
+    {
+      "course": "CMPT 497",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      }
+    },
+    {
+      "course": "CMPT 498",
+      "courseType": {
+        "type": "elective",
+        "subtype": "other"
+      }
+    },
+    {
+      "course": "CMPT 499",
+      "courseType": {
+        "type": "elective",
+        "subtype": "compsys"
+      }
+    },
+    {
+      "course": "MACM 101",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MACM 300",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "MACM 316",
+      "courseType": {
+        "type": "required",
+        "subtype": "bsc"
+      }
+    },
+    {
+      "course": "MACM 401",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      }
+    },
+    {
+      "course": "MACM 442",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      }
+    },
+    {
+      "course": "MACM 476",
+      "courseType": {
+        "type": "elective",
+        "subtype": "theoretical"
+      }
+    },
+    {
+      "course": "MATH 150",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 151",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 152",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 154",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 155",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 157",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 158",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 232",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 240",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    },
+    {
+      "course": "MATH 308",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      }
+    },
+    {
+      "course": "MATH 340",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      }
+    },
+    {
+      "course": "MATH 343",
+      "courseType": {
+        "type": "elective",
+        "subtype": "macm"
+      }
+    },
+    {
+      "course": "STAT 271",
+      "courseType": {
+        "type": "required",
+        "subtype": "lower"
+      }
+    }
+  ]
+}
