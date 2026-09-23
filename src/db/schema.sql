@@ -1,7 +1,7 @@
--- Run this once when creating a new local database.
+-- Create missing tables; this does not migrate existing tables.
 PRAGMA foreign_keys = ON;
 
-CREATE TABLE course (
+CREATE TABLE IF NOT EXISTS course (
   course_code TEXT PRIMARY KEY,
   title TEXT,
   description TEXT,
@@ -16,7 +16,7 @@ CREATE TABLE course (
   units INTEGER
 );
 
-CREATE TABLE course_section (
+CREATE TABLE IF NOT EXISTS course_section (
   course_code TEXT NOT NULL
     REFERENCES course(course_code) ON UPDATE CASCADE,
   section_code TEXT NOT NULL,

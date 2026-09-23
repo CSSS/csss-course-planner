@@ -1,7 +1,7 @@
 import { sql } from "drizzle-orm";
 import { integer, primaryKey, sqliteTable, text } from "drizzle-orm/sqlite-core";
-import type { Semester } from "../src/types/sfu-api.ts";
-import type { Requirement } from "../src/parser/parser.ts";
+import type { Semester } from "../types/sfu-api.ts";
+import type { Requirement } from "../parser/parser.ts";
 
 export const course = sqliteTable("course", {
   course_code: text("course_code").primaryKey(),
