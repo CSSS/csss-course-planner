@@ -1,3 +1,6 @@
 node_modules
 output.txt
 prerequisites-*
+*.db
+*.sqlite
+*.sqlite3

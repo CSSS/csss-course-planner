@@ -10,5 +10,9 @@
   "devDependencies": {
     "@types/node": "^26.1.2",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "drizzle-orm": "^0.45.3"
   }
 }
