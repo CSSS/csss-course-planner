@@ -22,6 +22,23 @@ node ./src/fetch-course-outlines.ts --input degree-requirements.json
 npm run start > output.txt
 ```
 
+## Database setup
+
+Copy `.env.example` to `.env` and set `DATABASE_PATH` to your database file path.
+Relative paths are resolved from the project directory when running the command;
+the parent directory must already exist.
+
+```sh
+npm run db:push
+```
+
+This creates or updates the database tables using `src/db/tables.ts` and
+`drizzle.config.ts`.
+
+`openDatabase(path)` only opens the connection and enables foreign keys. It does
+not create tables or load `.env`; callers supply their configured path. Set up
+the tables with `db:push` before querying them.
+
 ## Tests
 
 There are some tests written in [test.ts](./src/test.ts).

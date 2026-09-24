@@ -4,11 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "db:push": "drizzle-kit push",
     "start": "node src/parse.ts",
     "test": "node src/test.ts && tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",
+    "drizzle-kit": "^0.31.11",
     "typescript": "^7.0.2"
   },
   "dependencies": {

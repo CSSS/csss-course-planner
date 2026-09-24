@@ -4,3 +4,4 @@ prerequisites-*
 *.db
 *.sqlite
 *.sqlite3
+.env
