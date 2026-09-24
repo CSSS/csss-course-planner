@@ -1,7 +1,6 @@
 import { existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { loadEnvFile } from "node:process";
-import { pathToFileURL } from "node:url";
 import { defineConfig } from "drizzle-kit";
 
 if (existsSync(".env")) {
@@ -14,10 +13,9 @@ if (!databasePath?.trim()) {
 }
 
 export default defineConfig({
-  // Uses local SQLite database file for development, and Turso for production.
   dialect: "sqlite",
   schema: "./src/db/tables.ts",
   dbCredentials: {
-    url: pathToFileURL(resolve(databasePath)).href,
+    url: resolve(databasePath),
   },
 });

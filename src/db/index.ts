@@ -1,22 +1,18 @@
 import { resolve } from "node:path";
-import { pathToFileURL } from "node:url";
-import { createClient } from "@libsql/client";
-import { drizzle } from "drizzle-orm/libsql";
-import * as schema from "./tables.ts";
+import { DatabaseSync } from "node:sqlite";
+import { drizzle } from "drizzle-orm/node-sqlite";
 
 // Opens a connection. Apply tables separately with npm run db:push.
 export async function openDatabase(databasePath: string) {
   if (!databasePath.trim()) {
     throw new Error("A database file path is required.");
   }
-  const client = createClient({
-    url: pathToFileURL(resolve(databasePath)).href,
-  });
+  const client = new DatabaseSync(resolve(databasePath));
 
   try {
-    await client.execute("PRAGMA foreign_keys = ON");
+    client.exec("PRAGMA foreign_keys = ON");
     return {
-      db: drizzle(client, { schema }),
+      db: drizzle({ client }),
       close: () => client.close(),
     };
   } catch (error) {
