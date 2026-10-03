@@ -45,20 +45,6 @@ try {
 }
 ```
 
-`getCourseInfo` returns `{ course, sections }`, or `undefined` if no outline is
-found. Without a term, it uses the latest fresh cached term or searches backward
-from the current term. The default cache lifetime is one hour; pass milliseconds
-as the second constructor argument, or `0` to refresh on every call.
-
-For direct cache access, import `DatabaseObject` from `./src/db/database.ts`.
-Its `get(code, term, latestAllowed)` method reads cached data without fetching or
-checking freshness; `save(courseValues, sectionValues, term)` inserts or updates
-rows in one transaction. Call `close()` when finished with either class.
-
-Both classes require an existing schema (`npm run db:push`) and take a database
-path directly. They do not load `.env`. The schema command needs `DATABASE_PATH`
-from either your shell environment or `.env`.
-
 ## Tests
 
 Run `npm test` to run the parser tests and check TypeScript types.
