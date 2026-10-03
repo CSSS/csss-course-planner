@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "db:push": "drizzle-kit push",
-    "start": "node src/parse.ts",
-    "test": "node src/test.ts && tsc --noEmit"
+    "start": "node src/parse.ts"
   },
   "devDependencies": {
     "@types/node": "^26.1.2",

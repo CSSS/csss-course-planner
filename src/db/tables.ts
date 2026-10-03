@@ -16,6 +16,7 @@ export const course = sqliteTable("course", {
   designation: text("designation"),
   number: text("number"),
   units: integer("units"),
+  last_updated: integer("last_updated", { mode: "timestamp_ms" }),
 });
 
 export const courseSection = sqliteTable("course_section", {
