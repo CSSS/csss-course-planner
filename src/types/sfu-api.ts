@@ -22,6 +22,11 @@ export type SfuSection = {
 };
 
 export type SfuOutlineInfo = {
+  degreeLevel?: string;
+  designation?: string;
+  units?: string | number;
+  deliveryMethod?: string;
+  notes?: string;
   description: string;
   prerequisites: string;
   corequisites: string;

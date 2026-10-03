@@ -22,7 +22,32 @@ node ./src/fetch-course-outlines.ts --input degree-requirements.json
 npm run start > output.txt
 ```
 
+## Course classes
+
+`SfuCourses` fetches SFU outlines, parses prerequisites and corequisites, and
+caches course details and lecture sections in SQLite. `DatabaseObject` handles
+cached reads and transactional saves internally.
+
+```ts
+import { SfuCourses } from "./src/index.ts";
+
+const courses = new SfuCourses("./course-planner.db");
+try {
+  const latest = await courses.getCourseInfo("CMPT 307");
+  console.dir(latest, { depth: null });
+
+  const fall = await courses.getCourseInfo("CMPT 307", {
+    year: 2026,
+    semester: "fall",
+  });
+} finally {
+  courses.close();
+}
+```
+
 ## Tests
+
+Run `npm test` to run the parser tests and check TypeScript types.
 
 There are some tests written in [test.ts](./src/test.ts).
 They don't check all courses, just the ones that have differing patterns.

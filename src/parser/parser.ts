@@ -1,6 +1,6 @@
 import type { SyntaxToken } from "./tokens.ts";
 
-type Requirement =
+export type Requirement =
   | { kind: "course"; code: string }
   | { kind: "allOf"; items: Requirement[] }
   | { kind: "anyOf"; items: Requirement[] };
