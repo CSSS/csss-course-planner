@@ -22,24 +22,46 @@ node ./src/fetch-course-outlines.ts --input degree-requirements.json
 npm run start > output.txt
 ```
 
-## Database setup
+## Course classes
 
-Copy `.env.example` to `.env` and set `DATABASE_PATH` to your database file path.
-Relative paths are resolved from the project directory when running the command;
-the parent directory must already exist.
+`SfuCourses` fetches SFU outlines, parses prerequisites and corequisites, and
+caches course details and lecture sections in SQLite. `DatabaseObject` handles
+cached reads and transactional saves internally.
 
-```sh
-npm run db:push
+```ts
+import { SfuCourses } from "./src/index.ts";
+
+const courses = new SfuCourses("./course-planner.db");
+try {
+  const latest = await courses.getCourseInfo("CMPT 307");
+  console.dir(latest, { depth: null });
+
+  const fall = await courses.getCourseInfo("CMPT 307", {
+    year: 2026,
+    semester: "fall",
+  });
+} finally {
+  courses.close();
+}
 ```
 
-This creates or updates the database tables using `src/db/tables.ts` and
-`drizzle.config.ts`.
+`getCourseInfo` returns `{ course, sections }`, or `undefined` if no outline is
+found. Without a term, it uses the latest fresh cached term or searches backward
+from the current term. The default cache lifetime is one hour; pass milliseconds
+as the second constructor argument, or `0` to refresh on every call.
 
-`openDatabase(path)` only opens the connection and enables foreign keys. It does
-not create tables or load `.env`; callers supply their configured path. Set up
-the tables with `db:push` before querying them.
+For direct cache access, import `DatabaseObject` from `./src/db/database.ts`.
+Its `get(code, term, latestAllowed)` method reads cached data without fetching or
+checking freshness; `save(courseValues, sectionValues, term)` inserts or updates
+rows in one transaction. Call `close()` when finished with either class.
+
+Both classes require an existing schema (`npm run db:push`) and take a database
+path directly. They do not load `.env`. The schema command needs `DATABASE_PATH`
+from either your shell environment or `.env`.
 
 ## Tests
+
+Run `npm test` to run the parser tests and check TypeScript types.
 
 There are some tests written in [test.ts](./src/test.ts).
 They don't check all courses, just the ones that have differing patterns.
